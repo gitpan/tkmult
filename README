@@ -1,0 +1,43 @@
+	      			TkMult
+			          by
+			   Richard Burkholder Jr
+
+			     Version 1.0.0
+			   Released 7-21-1999
+
+DESCRIPTION:
+
+TkMult is a program which, with some editing of a configuration file, can be
+adapted to most command line programs.  It was originally designed for use with
+GNU's tar, however, it has taken on a bit more functionality.
+
+USE:
+
+TkMult is run from the command line and it is possible to pass switches to it.
+	tkmult			- Run the program and read from the 
+				  configuration file tkmult.conf
+	tkmult -v		- Display version and configfile
+	tkmult -c "configfile"	- Run tkmult using the configuration file
+				  passed
+	tkmult "filename"	- Run the program with the file loaded
+
+REQUIREMENTS:
+
+This program requires perl version 5.005_03.  It can be obtained from
+http://www.perl.com.  Modules Tk, Carp, and IPC are also required.  These are
+avaible from http://www.cpan.org.
+
+CONTACTING THE AUTHOR:
+
+The author may be contacted by email at rlb_jr@hotmail.com.  Feel free to ask
+questions about the program and make suggestions/report bugs.  If you make any
+changes to the program you are asked (but not required -- see the GNU public
+license) to email the author with the changes so the release source can be
+patched.
+
+INTERNET RESOURCES:
+
+http://www.perl.com/
+http://www.cpan.org/
+http://www.perl.org/
+http://www.gnu.org/
